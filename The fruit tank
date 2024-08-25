@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fruit Tank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The Fruit Tank</h1>
+            <p>Fresh Juices, Milkshakes, Smoothies & Fruit Salads</p>
+        </div>
+    </header>
+    
+    <div class="container content">
+        <h2>Welcome to The Fruit Tank!</h2>
+        <p>At The Fruit Tank, we offer a delicious variety of fresh juices, milkshakes, smoothies, and fruit salads made from the finest ingredients. Whether you're looking for a refreshing drink or a healthy snack, we've got you covered.</p>
+        
+        <h3>Visit Us On Facebook</h3>
+        <p>Stay updated with our latest offers and specials by following us on Facebook: <a href="https://www.facebook.com/TheFruitTank" target="_blank">The Fruit Tank</a></p>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 The Fruit Tank. All rights reserved.</p>
+    </footer>
+</body>
+</html>
